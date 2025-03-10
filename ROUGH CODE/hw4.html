@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing & Display</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+        .box {
+            width: 50vw;
+            height: 20vh;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+        .pixel {
+            width: 200px;
+            height: 100px;
+            background-color: lightcoral;
+        }
+        .em-rem {
+            width: 10em;
+            height: 5rem;
+            background-color: lightgreen;
+        }
+        .percent {
+            width: 50%;
+            height: 50px;
+            background-color: orange;
+        }
+        .vmin-vmax {
+            width: 100vmin;
+            height: 10vmax;
+            background-color: purple;
+        }
+        .block {
+            display: block;
+            background-color: yellow;
+        }
+        .inline {
+            display: inline;
+            background-color: cyan;
+        }
+        .inline-block {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: pink;
+        }
+        .hidden {
+            visibility: hidden;
+        }
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Sizing Units</h2>
+    <div class="box">Viewport (vw, vh)</div>
+    <div class="pixel">Pixels (px)</div>
+    <div class="em-rem">EM & REM</div>
+    <div class="percent">Percentage (%)</div>
+    <div class="vmin-vmax">Vmin & Vmax</div>
+    
+    <h2>Display Properties</h2>
+    <div class="block">Block Element</div>
+    <span class="inline">Inline Element</span>
+    <div class="inline-block">Inline-Block</div>
+    
+    <h2>Visibility</h2>
+    <div class="hidden">This is hidden (visibility: hidden)</div>
+    <div class="none">This is removed (display: none)</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    /* * is a univarsal selector */
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* div{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}  */
+
+/* #box1{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#box2{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+}
+#box3{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+} */
+
+/* span{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;  
+} */
+
+div{
+    background-color: yellow;
+    height: 50px;
+}
+
+a:hover{
+    color: blue;
+}
+
+a{
+    border: 5px,solid,red;
+    background-color: black;
+    color:green;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    margin: 10px; 
+}
+

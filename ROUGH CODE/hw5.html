@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vmax & vmin Demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c36;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .box {
+            width: 50vmax;
+            height: 20vmin;
+            background-color: #ff6347;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3vmin;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .description {
+            margin-top: 20px;
+            font-size: 2vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">vmax: 20vmax | vmin: 20vmin</div>
+        <p class="description">Resize the window to see how the box scales.</p>
+    </div>
+</body>
+</html>

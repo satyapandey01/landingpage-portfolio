@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: 5px;
+    padding: 5px;
+    /* height: 5px; */
+
+}
+
+.box{
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    height: 10px;
+    width: 50px;
+}
+
+#box1{
+    order: 4;
+}
+#box3{
+    order: 1;
+}
+#box5{
+    order: 0;
+}
+
+/* display media, tablet media(600px to 900px), mobile mode */
+/* flexbox, flexwrap, gap, space around space, align item and align content, media query */

@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    /* height: 100px; */
+}
+
+.navbar{
+    background-color:grey;
+    padding: 20px 0px 20px 0px;
+}
+
+.title{
+    color: navajowhite;
+    margin-left: 20px;
+    margin-right:50%;
+    font-size:xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link{
+  text-decoration: none;
+  margin-right: 10px;
+  color:navajowhite;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:15px;
+  text-decoration: none;
+}
+
+.link:hover {
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
